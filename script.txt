@@ -1,0 +1,36 @@
+mysql://
+user b3b68be8009001
+senha 78deb063
+servidor us-cdbr-east-03.cleardb.com
+db heroku_7af70f80fb7c0e8
+
+ https://htmteam.herokuapp.com/
+
+
+
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "hmteam",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "hmteam",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "urlRoot":"http://192.168.15.4:3000/",
+  "origin": "Rua Minas Gerais, 319 - Fortaleza  / CE"
+
+}

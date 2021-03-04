@@ -1,0 +1,62 @@
+login heroku = marcusantoniopaulo@gmail.com
+
+Senha heroku = FBlack2021
+
+login expo= marcusantoniopaulo@gmail.com
+
+Senha expo= fBlack2021
+
+---------------------------------------------
+Banco de dados
+
+root  bde81b940acab1
+senha 85b0cbd7
+host  us-cdbr-east-03.cleardb.com
+bd    heroku_0284be3e029a6dd
+
+http://192.168.15.5:3000/
+http://gbhmteam.herokuapp.com/
+
+
+-------------------------------------------
+Servidor
+
+remote: https://gbhmteam.herokuapp.com
+
+
+
+
+
+Buido no expo:
+
+1 -Depois de fazer as mudanças no package.json( node Controller.js) e no 
+
+"main": "node_modules/expo/AppEntry.js",
+  
+"scripts": {
+    
+  "start": "expo start"
+,
+  "android": "expo start --android"
+,
+  "ios": "expo start --ios"
+,
+  "web": expo start --web"
+,
+  "eject": expo eject
+},
+
+
+
+2 - config.json   "urlRoot":"http://gbhmteam.herokuapp.com/",
+3 - e dados de banco bem como a url
+
+expo build:android -t apk
+
+
+
+Checking if there is a build in progress...
+
+Successfully built standalone app: https://expo.io/artifacts/1b586b70-5442-4175-b902-b8d6888e30ac
+
+C:\xampp\htdocs\Htmteam>
